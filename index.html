@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="css/app.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Podsearch</title>
@@ -16,22 +17,91 @@
 
     <!-- hero -->
     <div class="hero">
-      <div class="row img-row">
-        <div class="col-xs-12">
-          <img src="img/logo.png">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-xs-12 hero-1">
+                <div class="img-container">
+                  <img src="img/logo.png">
+                </div>
+                <div class="text-container">
+                  <h1>
+                    There are 26 Million People in the U.S.
+                    Looking for Great Podcasts Every Month*.
+                    How will they Find Yours?
+                    <br>
+                    <span>*Source: Google Analytics, November 2017</span>
+                  </h1>
+                  <a class="button" href="#">JOIN PODSEARCH</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-xs-12 hero-2">
+                <div class="img-container">
+                  <img src="img/logo.png">
+                </div>
+                <div class="text-container">
+                  <h1>
+                    <b>PodSearch</b>
+                  </h1>
+                  <p>
+                    The easiest podcast discovery platform
+                  </p>
+                  <a class="button" href="#">JOIN PODSEARCH</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-xs-12 hero-3">
+                <div class="img-container">
+                  <img src="img/logo.png">
+                </div>
+                <div class="text-container">
+                  <h1>
+                    <i>Get Discovered.</i>
+                  </h1>
+                  <p>
+                    New listeners. Potential sponsors. And so much more!
+                  </p>
+                  <a class="button" href="#">Join today.</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-xs-12 hero-4">
+                <div class="img-container">
+                  <img src="img/logo.png">
+                </div>
+                <div class="text-container">
+                  <h1>
+                    You put a lot of work into creating your podcast.
+                  </h1>
+                  <p>
+                    So, now…
+                    Get It Discovered!
+                  </p>
+                  <a class="button" href="#">JOIN PODSEARCH</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <h1>
-            There are 26 Million People in the U.S.
-            Looking for Great Podcasts Every Month*.
-            How will they Find Yours?
-            <br>
-            <span>*Source: Google Analytics, November 2017</span>
-          </h1>
-          <a class="button" href="#">JOIN PODSEARCH</a>
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
     <!-- end hero -->
@@ -206,26 +276,6 @@
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <h1>
-            Get Sponsored
-          </h1>
-          <p>
-            Advertisers search our podcast directory for the right fit.
-            With one click, they can use PodSearch AdConnect™ to contact you.
-            Our full-service ad agency, PodSearchAD, helps sponsors find you, too.
-          </p>
-        </div>
-        <div class="col-sm-6 image-5">
-
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 button-container">
-          <a class="button" href="#">JOIN PODSEARCH</a>
-        </div>
-      </div>
     </div>
     <!-- end more info desktop section -->
 
@@ -296,19 +346,23 @@
 
         </div>
       </div>
+    </div>
+  </div>
+    <!-- end more info mobile section -->
+
+    <!-- get sponsored section -->
+    <div class="get-sponsored">
       <div class="row">
         <div class="col-xs-12">
           <h1>
             Get Sponsored
           </h1>
+          <div class="underline"></div>
           <p>
             Advertisers search our podcast directory for the right fit.
             With one click, they can use PodSearch AdConnect™ to contact you.
             Our full-service ad agency, PodSearchAD, helps sponsors find you, too.
           </p>
-        </div>
-        <div class="col-sm-6 image-5">
-
         </div>
       </div>
       <div class="row">
@@ -317,8 +371,7 @@
         </div>
       </div>
     </div>
-  </div>
-    <!-- end more info mobile section -->
+    <!-- end get sponsored section -->
 
     <!-- experts section -->
     <div class="experts">
@@ -330,15 +383,17 @@
           <p>
             Hear the amazing things podcasters had to say about PodSearch.
           </p>
-          <h2>
-            IMG/AUDIO CLIP GOES HERE
-          </h2>
+          <audio controls>
+            <source src="audio/happinesshack.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
           <p class="caption">
             Gretchen Rubin and Elizabeth Craft of the popular Happier podcast
           </p>
-          <h2>
-            IMG/AUDIO CLIP GOES HERE
-          </h2>
+          <audio controls>
+            <source src="audio/onetoughmuther.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
           <p class="caption">
             One Tough Muther
           </p>
@@ -437,7 +492,7 @@
     </script>
     <!-- end script for learn more/see less button -->
 
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
   </body>
 </html>
