@@ -72,6 +72,19 @@
 }
 
 // Media queries
+@media (min-width: 1500px) and (min-height: 900px) {
+  .unique {
+    min-height: 570px;
+    h1 {
+      font-size: 66px;
+    }
+    p {
+      font-size: 40px;
+      width: 1300px;
+    }
+  }
+}
+
 @media (max-width: 1035px) {
   .unique {
     min-height: 560px;
@@ -108,7 +121,7 @@
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
   .unique {
     min-height: 560px;
     h1 {
@@ -117,6 +130,9 @@
     p {
       width: auto;
       font-size: 20px;
+    }
+    .underline {
+      width: 200px;
     }
   }
 }

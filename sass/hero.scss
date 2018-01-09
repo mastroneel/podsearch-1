@@ -93,6 +93,7 @@
     img {
       width: 120px;
       margin-top: 10px;
+      margin-bottom: 20px;
     }
   }
   // h1, p {
@@ -166,13 +167,83 @@
 }
 
 
-// @media (min-width: 1800px) and (min-height: 1100px) {
-//   .hero {
-//     h1 {
-//       font-size: 60px;
-//     }
-//   }
-// }
+@media (min-width: 1300px) and (min-height: 900px) {
+  .hero {
+    .text-container {
+      h1 {
+        font-size: 55px;
+        span {
+          font-size: 22px;
+        }
+      }
+      .large {
+        font-size: 65px;
+      }
+      .button {
+        font-size: 35px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) and (min-height: 1100px) {
+  .hero {
+    .text-container {
+      h1 {
+        font-size: 65px;
+        margin-top: 45px;
+        span {
+          font-size: 28px;
+        }
+      }
+      .large {
+        font-size: 75px;
+      }
+      .button {
+        font-size: 45px;
+      }
+    }
+  }
+}
+
+@media (min-width: 2300px) and (min-height: 1300px) {
+  .hero {
+    .text-container {
+      h1 {
+        font-size: 80px;
+        margin-top: 45px;
+        span {
+          font-size: 33px;
+        }
+      }
+      .large {
+        font-size: 90px;
+      }
+      .button {
+        font-size: 65px;
+      }
+    }
+  }
+}
+
+// Ipad styles
+@media (max-width: 768px) and (min-height: 980px) {
+  .hero {
+    .text-container {
+      height: 50vh;
+      margin-top: 20vh;
+    }
+  }
+}
+
+@media (max-width: 1024px) and (min-height: 1250px) {
+  .hero {
+    .text-container {
+      height: 35vh;
+      margin-top: 20vh;
+    }
+  }
+}
 
 // @media (max-width: 843px) {
 //   .hero {

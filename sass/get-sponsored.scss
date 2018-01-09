@@ -29,9 +29,21 @@
 }
 
 // Media queries
+
+@media (min-width: 1500px) and (min-height: 900px) {
+  .get-sponsored {
+    h1 {
+      font-size: 66px;
+    }
+    p {
+      font-size: 40px;
+      width: 1300px;
+    }
+  }
+}
+
 @media (max-width: 1035px) {
   .get-sponsored {
-    min-height: 560px;
     p {
       width: 600px;
       font-size: 30px;
@@ -41,7 +53,6 @@
 
 @media (max-width: 710px) {
   .get-sponsored {
-    min-height: 560px;
     h1 {
       font-size: 40px;
     }
@@ -54,7 +65,6 @@
 
 @media (max-width: 530px) {
   .get-sponsored {
-    min-height: 560px;
     h1 {
       font-size: 40px;
     }
@@ -65,9 +75,11 @@
   }
 }
 
-@media (max-width: 420px) {
-  .unique {
-    min-height: 560px;
+@media (max-width: 450px) {
+  .get-sponsored {
+    .underline {
+      width: 200px;
+    }
     h1 {
       font-size: 40px;
     }

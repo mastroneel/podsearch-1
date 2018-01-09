@@ -89,16 +89,38 @@
 }
 
 // Media queries
-@media (min-width: 2400px) and (min-height: 1300px){
+@media (min-width: 1500px) and (min-height: 900px) {
+  .more-info-desktop {
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+}
+
+@media (min-width: 1800px) and (min-height: 1100px) {
+  .more-info-desktop {
+    h1 {
+      font-size: 50px;
+    }
+    p {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (min-width: 2300px) and (min-height: 1300px){
   .more-info-desktop {
     .col-sm-6 {
       min-height: 650px;
     }
     h1 {
-      font-size: 46px;
+      font-size: 60px;
     }
     p, .see-more-text {
-      font-size: 30px;
+      font-size: 38px;
       width: 60%;
     }
   }
