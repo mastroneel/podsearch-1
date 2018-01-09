@@ -5,6 +5,7 @@
   h1 {
     color: $blue;
     padding: 20px;
+    font-size: 56px;
   }
   h2, p {
     color: $blue;
@@ -29,5 +30,16 @@
     padding-top: 10px;
     font-size: 36px;
     margin-top: -2px;
+  }
+  .button-row {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 412px) {
+  .three-steps {
+    .button {
+      font-size: 15px;
+    }
   }
 }

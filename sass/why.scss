@@ -2,19 +2,21 @@
 
 .why {
   padding: 40px 0 40px 0;
-  min-height: 630px;
+  min-height: 610px;
   h1, p {
     color: $blue;
   }
   h1 {
     margin-top: 40px;
+    font-size: 56px;
   }
   p {
-    font-size: 20px;
-    width: 500px;
+    font-size: 30px;
+    width: 800px;
     display: block;
     margin: 0 auto;
     margin-top: 20px;
+    font-family: 'calibri', sans-serif;
   }
   .underline {
     height: 0;
@@ -27,10 +29,10 @@
     width: auto;
     font-style: italic;
     margin-top: 2px;
-    width: 280px;
+    // width: 280px;
   }
   .more-button, .less-button {
-    font-family: 'roboto', serif;
+    font-family: 'calibri', sans-serif;
     color: $yellow;
     text-decoration: underline;
     transition: 0.2s;
@@ -48,7 +50,7 @@
   }
   // see more container and button styles
   .container {
-    width: 100%;
+    // width: 100%;
     margin: auto;
     text-align: center;
     transition: all 0.5s;
@@ -63,7 +65,7 @@
     }
     .more {
       height: 215px;
-      width: 100%;
+      // width: 100%;
       overflow: auto;
     }
     .button {
@@ -75,51 +77,103 @@
 
 
 // Media queries
-@media (min-width: 993px) {
+@media (max-width: 1035px) {
   .why {
-    .button-xs-sm {
-      display: none;
-    }
-  }
-}
-
-@media (max-width: 992px) {
-  .why {
-    .button-md-lg {
-      display: none;
-    }
-    .button {
-      margin-top: 10px;
-    }
-  }
-}
-
-@media (max-width: 950px) {
-  .why {
-    .more {
-      height: 210px;
-    }
-  }
-}
-
-@media (max-width: 540px) {
-  .why {
+    // min-height: 560px;
     p {
-      width: 290px;
-    }
-    .more {
-      height: 260px;
+      width: 600px;
+      font-size: 30px;
     }
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 710px) {
   .why {
+    // min-height: 560px;
     h1 {
-      font-size: 25px;
+      font-size: 40px;
     }
     p {
-      width: 300px;
+      width: 500px;
+      font-size: 27px;
     }
   }
 }
+
+@media (max-width: 530px) {
+  .why {
+    // min-height: 560px;
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      width: auto;
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .why {
+    // min-height: 560px;
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      width: auto;
+      font-size: 20px;
+    }
+  }
+}
+
+
+
+
+// @media (min-width: 993px) {
+//   .why {
+//     .button-xs-sm {
+//       display: none;
+//     }
+//   }
+// }
+//
+// @media (max-width: 992px) {
+//   .why {
+//     .button-md-lg {
+//       display: none;
+//     }
+//     .button {
+//       margin-top: 10px;
+//     }
+//   }
+// }
+//
+// @media (max-width: 950px) {
+//   .why {
+//     .more {
+//       height: 210px;
+//     }
+//   }
+// }
+//
+// @media (max-width: 540px) {
+//   .why {
+//     p {
+//       width: 290px;
+//     }
+//     .more {
+//       height: 260px;
+//     }
+//   }
+// }
+//
+// @media (max-width: 390px) {
+//   .why {
+//     h1 {
+//       font-size: 25px;
+//     }
+//     p {
+//       width: 300px;
+//     }
+//   }
+// }

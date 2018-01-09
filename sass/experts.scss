@@ -7,8 +7,11 @@
   h1, p {
     color: $white;
   }
+  h1 {
+    font-size: 56px;
+  }
   p {
-    font-size: 20px;
+    font-size: 30px;
   }
   .caption {
     color: $yellow;

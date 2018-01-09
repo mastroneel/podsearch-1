@@ -8,8 +8,8 @@
 @import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 
 @font-face {
-  font-family: alfa;
-  src: url("../fonts/alfa.ttf");
+  font-family: calibri;
+  src: url("../fonts/calibri.ttf");
 }
 
 @font-face {
@@ -35,7 +35,7 @@ body {
 }
 
 h1 {
-  font-family: 'alfa', serif;
+  font-family: 'calibri', serif;
 }
 
 h2 {
@@ -43,7 +43,7 @@ h2 {
 }
 
 p {
-  font-family: 'ptserif', serif;
+  font-family: 'calibri', sans-serif;
 }
 
 .button, .button:visited {

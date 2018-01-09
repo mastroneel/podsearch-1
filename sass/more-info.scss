@@ -3,7 +3,7 @@
 .more-info-desktop, .more-info-mobile {
   .col-xs-12, .col-sm-6 {
     min-height: 450px;
-    padding-top: 90px;
+    padding-top: 60px;
   }
   .button-container {
     min-height: 0;
@@ -37,9 +37,12 @@
   h1, p {
     color: $blue;
   }
+  h1 {
+    font-size: 45px;
+  }
   p, .see-more-text {
-    font-size: 20px;
-    width: 80%;
+    font-size: 25px;
+    width: 90%;
     display: block;
     margin: 0 auto;
   }
@@ -101,13 +104,24 @@
   }
 }
 
+@media (max-width: 1260px) {
+  .more-info-desktop {
+    h1 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+}
+
 @media (max-width: 1065px) {
   .more-info-desktop, .more-info-mobile {
     h1 {
-      font-size: 25px;
+      font-size: 30px;
     }
     p, .see-more-text {
-      font-size: 18px;
+      font-size: 22px;
       width: 90%;
     }
   }
@@ -128,10 +142,10 @@
 @media (max-width: 400px) {
   .more-info-desktop, .more-info-mobile {
     h1 {
-      font-size: 22px;
+      font-size: 28px;
     }
     p, .see-more-text {
-      font-size: 16px;
+      font-size: 20px;
       width: 95%;
     }
   }
