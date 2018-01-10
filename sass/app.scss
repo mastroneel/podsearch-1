@@ -35,11 +35,11 @@ body {
 }
 
 h1 {
-  font-family: 'calibri', serif;
+  font-family: 'calibri', sans-serif;
 }
 
 h2 {
-  font-family: 'roboto', serif;
+  font-family: 'calibri', sans-serif;
 }
 
 p {
@@ -47,7 +47,7 @@ p {
 }
 
 .button, .button:visited {
-  font-family: 'roboto', serif;
+  font-family: 'calibri', sans-serif;
   font-weight: bold;
   font-size: 25px;
   text-transform: uppercase;
@@ -76,3 +76,12 @@ p {
 @import 'experts';
 @import 'three-steps';
 @import 'footer';
+
+.container {
+  .less, .more {
+    .more-button, .less-button {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  }
+}

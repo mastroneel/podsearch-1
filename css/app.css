@@ -8149,16 +8149,16 @@ body {
   margin: 0; }
 
 h1 {
-  font-family: 'calibri', serif; }
+  font-family: 'calibri', sans-serif; }
 
 h2 {
-  font-family: 'roboto', serif; }
+  font-family: 'calibri', sans-serif; }
 
 p {
   font-family: 'calibri', sans-serif; }
 
 .button, .button:visited {
-  font-family: 'roboto', serif;
+  font-family: 'calibri', sans-serif;
   font-weight: bold;
   font-size: 25px;
   text-transform: uppercase;
@@ -8181,7 +8181,7 @@ p {
   .hero .text-container {
     margin: 0 auto;
     height: 80vh;
-    padding: 20px;
+    padding: 0 20px;
     width: 100%;
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
@@ -8190,15 +8190,19 @@ p {
       color: #fff;
       margin-bottom: 40px; }
     .hero .text-container h1 {
-      font-size: 40px; }
+      font-size: 36px; }
       .hero .text-container h1 span {
         font-family: 'ptserif', serif;
         font-size: 11px;
         display: block; }
+      .hero .text-container h1 .tm {
+        font-size: 20px;
+        margin-top: -45px;
+        margin-left: 220px; }
     .hero .text-container .large {
-      font-size: 50px; }
+      font-size: 46px; }
     .hero .text-container p {
-      font-size: 20px; }
+      font-size: 18px; }
   .hero .hero-1 {
     background-image: url("../img/hero-1.jpg");
     background-position: center;
@@ -8219,7 +8223,7 @@ p {
     height: 100vh; }
   .hero .hero-4 {
     background-image: url("../img/hero-4.jpg");
-    background-position: right;
+    background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh; }
@@ -8229,17 +8233,40 @@ p {
       width: 120px;
       margin-top: 10px;
       margin-bottom: 20px; }
+  .hero .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    margin: 5px; }
+  .hero i {
+    color: #fff;
+    font-size: 36px;
+    display: block;
+    margin: 20px auto 0 auto;
+    text-decoration: none; }
+    .hero i:hover {
+      color: #ffd249;
+      text-decoration: none; }
+  .hero a, .hero a:hover, .hero a:visited {
+    text-decoration: none; }
 
 @media (max-width: 1180px) {
   .hero .text-container h1 {
     font-size: 30px; }
+    .hero .text-container h1 .tm {
+      font-size: 16px;
+      margin-top: -40px;
+      margin-left: 190px; }
   .hero .text-container .large {
     font-size: 40px; }
   .hero .text-container .button {
-    font-size: 18px; } }
+    font-size: 16px; } }
 @media (min-width: 768px) and (max-width: 795px) {
   .hero .text-container h1 {
     font-size: 25px; }
+    .hero .text-container h1 .tm {
+      font-size: 16px;
+      margin-top: -40px;
+      margin-left: 170px; }
   .hero .text-container .large {
     font-size: 35px; }
   .hero .text-container .button {
@@ -8248,13 +8275,16 @@ p {
   .hero .col-xs-12 {
     margin: 0 auto; }
   .hero .text-container {
-    min-width: 360px;
-    margin-top: 20px; } }
+    min-width: 360px; } }
 @media (min-width: 1300px) and (min-height: 900px) {
   .hero .text-container h1 {
     font-size: 55px; }
     .hero .text-container h1 span {
       font-size: 22px; }
+    .hero .text-container h1 .tm {
+      font-size: 20px;
+      margin-top: -65px;
+      margin-left: 290px; }
   .hero .text-container .large {
     font-size: 65px; }
   .hero .text-container .button {
@@ -8265,6 +8295,10 @@ p {
     margin-top: 45px; }
     .hero .text-container h1 span {
       font-size: 28px; }
+    .hero .text-container h1 .tm {
+      font-size: 25px;
+      margin-top: -75px;
+      margin-left: 340px; }
   .hero .text-container .large {
     font-size: 75px; }
   .hero .text-container .button {
@@ -8275,25 +8309,30 @@ p {
     margin-top: 45px; }
     .hero .text-container h1 span {
       font-size: 33px; }
+    .hero .text-container h1 .tm {
+      font-size: 30px;
+      margin-top: -95px;
+      margin-left: 400px; }
   .hero .text-container .large {
     font-size: 90px; }
   .hero .text-container .button {
     font-size: 65px; } }
 @media (max-width: 768px) and (min-height: 980px) {
   .hero .text-container {
-    height: 50vh;
-    margin-top: 20vh; } }
+    height: 50vh; } }
 @media (max-width: 1024px) and (min-height: 1250px) {
   .hero .text-container {
-    height: 35vh;
-    margin-top: 20vh; } }
+    height: 35vh; } }
 .how-does-it-work {
   padding: 40px 0 60px 0;
   text-align: center; }
   .how-does-it-work h1 {
     color: #222e50;
-    font-size: 66px;
+    font-size: 50px;
     margin-top: 20vh; }
+    .how-does-it-work h1 .tm {
+      font-size: 22px;
+      vertical-align: text-top; }
   .how-does-it-work .underline {
     height: 0;
     width: 300px;
@@ -8314,52 +8353,56 @@ p {
   .how-does-it-work p {
     font-style: italic;
     color: #222e50;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 10px; }
 
 @media (min-width: 1300px) and (min-height: 900px) {
   .how-does-it-work h1 {
     margin-top: 15vh; }
   .how-does-it-work p {
-    font-size: 35px; } }
+    font-size: 30px; } }
 @media (min-width: 1800px) and (min-height: 1100px) {
   .how-does-it-work h2 {
-    font-size: 80px; }
+    font-size: 70px; }
   .how-does-it-work p {
-    font-size: 36px; } }
+    font-size: 30px; } }
 @media (max-width: 767px) {
   .how-does-it-work h1 {
     margin-top: 10px; } }
 @media (max-width: 450px) {
   .how-does-it-work h1 {
-    font-size: 45px; }
+    font-size: 30px; }
+  .how-does-it-work p {
+    font-size: 18px; }
   .how-does-it-work .underline {
     width: 200px; } }
 .unique {
   background-color: #222e50;
   padding: 40px 0 0 0;
-  min-height: 530px; }
+  min-height: 440px; }
   .unique .underline {
     height: 0;
     width: 300px;
     display: block;
     margin: 0 auto 25px auto;
     border: 4px solid #ffd249; }
-  .unique h1, .unique p, .unique button {
+  .unique h1, .unique p {
     color: #fff;
+    transition: 0.2s;
     transition: 0.2s; }
   .unique h2 {
     color: #ffd249; }
-  .unique button:visited {
-    color: #fff; }
-  .unique button:hover {
+  .unique button, .unique button:visited {
     color: #ffd249;
     transition: 0.2s; }
+  .unique button:hover {
+    color: #fff;
+    transition: 0.2s; }
   .unique h1 {
-    font-size: 56px; }
+    font-size: 45px; }
   .unique p {
     font-family: 'calibri', sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     width: 800px;
     margin: 0 auto; }
   .unique .see-more-text {
@@ -8386,47 +8429,63 @@ p {
     width: 100%;
     overflow: hidden; }
   .unique .more {
-    height: 200px;
+    height: 140px;
     overflow: auto; }
 
 @media (min-width: 1500px) and (min-height: 900px) {
   .unique {
-    min-height: 570px; }
+    min-height: 470px; }
     .unique h1 {
-      font-size: 66px; }
+      font-size: 56px; }
     .unique p {
-      font-size: 40px;
+      font-size: 30px;
       width: 1300px; } }
 @media (max-width: 1035px) {
   .unique {
-    min-height: 560px; }
+    min-height: 465px; }
+    .unique h1 {
+      font-size: 42px; }
     .unique p {
       width: 600px;
-      font-size: 30px; } }
+      font-size: 25px; }
+    .unique .more {
+      height: 134px; } }
 @media (max-width: 710px) {
   .unique {
-    min-height: 560px; }
+    min-height: 493px; }
     .unique h1 {
       font-size: 40px; }
     .unique p {
       width: 500px;
-      font-size: 27px; } }
+      font-size: 24px; }
+    .unique .more-button, .unique .less-button {
+      font-size: 24px;
+      margin-top: 20px; } }
 @media (max-width: 530px) {
   .unique {
-    min-height: 560px; }
+    min-height: 465px; }
     .unique h1 {
-      font-size: 40px; }
-    .unique p {
-      width: auto;
-      font-size: 24px; } }
-@media (max-width: 450px) {
-  .unique {
-    min-height: 560px; }
-    .unique h1 {
-      font-size: 40px; }
+      font-size: 35px; }
     .unique p {
       width: auto;
       font-size: 20px; }
+    .unique .more-button, .unique .less-button {
+      font-size: 22px;
+      margin-top: 20px; } }
+@media (max-width: 450px) {
+  .unique {
+    min-height: 465px;
+    padding-bottom: 0; }
+    .unique h1 {
+      font-size: 30px; }
+    .unique p {
+      width: auto;
+      font-size: 18px; }
+    .unique .more-button, .unique .less-button {
+      font-size: 20px;
+      margin-top: 20px; }
+    .unique .more {
+      height: 160px; }
     .unique .underline {
       width: 200px; } }
 .container {
@@ -8434,14 +8493,14 @@ p {
 
 .why {
   padding: 40px 0 40px 0;
-  min-height: 610px; }
+  min-height: 555px; }
   .why h1, .why p {
     color: #222e50; }
   .why h1 {
     margin-top: 40px;
-    font-size: 56px; }
+    font-size: 45px; }
   .why p {
-    font-size: 30px;
+    font-size: 24px;
     width: 800px;
     display: block;
     margin: 0 auto;
@@ -8483,7 +8542,7 @@ p {
     width: 100%;
     overflow: hidden; }
   .why .more {
-    height: 215px;
+    height: 170px;
     overflow: auto; }
   .why .button {
     display: block;
@@ -8499,30 +8558,36 @@ p {
       font-size: 38px;
       width: 1300px; } }
 @media (max-width: 1035px) {
-  .why p {
-    width: 600px;
-    font-size: 30px; } }
+  .why {
+    min-height: 515px; }
+    .why h1 {
+      font-size: 40px; }
+    .why p {
+      width: 600px;
+      font-size: 24px; }
+    .why .more {
+      height: 170px; } }
 @media (max-width: 710px) {
   .why h1 {
-    font-size: 40px; }
+    font-size: 35px; }
   .why p {
     width: 500px;
-    font-size: 27px; } }
+    font-size: 22px; } }
 @media (max-width: 530px) {
   .why h1 {
-    font-size: 40px; }
-  .why p {
-    width: auto;
-    font-size: 24px; } }
-@media (max-width: 420px) {
-  .why h1 {
-    font-size: 40px; }
+    font-size: 30px; }
   .why p {
     width: auto;
     font-size: 20px; } }
+@media (max-width: 420px) {
+  .why h1 {
+    font-size: 30px; }
+  .why p {
+    width: auto;
+    font-size: 18px; } }
 .more-info-desktop .col-xs-12, .more-info-desktop .col-sm-6, .more-info-mobile .col-xs-12, .more-info-mobile .col-sm-6 {
   min-height: 450px;
-  padding-top: 60px; }
+  padding-top: 75px; }
 .more-info-desktop .button-container, .more-info-mobile .button-container {
   min-height: 0;
   margin-top: -20px; }
@@ -8545,9 +8610,9 @@ p {
 .more-info-desktop h1, .more-info-desktop p, .more-info-mobile h1, .more-info-mobile p {
   color: #222e50; }
 .more-info-desktop h1, .more-info-mobile h1 {
-  font-size: 45px; }
+  font-size: 35px; }
 .more-info-desktop p, .more-info-desktop .see-more-text, .more-info-mobile p, .more-info-mobile .see-more-text {
-  font-size: 25px;
+  font-size: 22px;
   width: 90%;
   display: block;
   margin: 0 auto; }
@@ -8585,6 +8650,8 @@ p {
   overflow: auto; }
 
 @media (min-width: 1500px) and (min-height: 900px) {
+  .more-info-desktop .col-sm-6 {
+    min-height: 550px; }
   .more-info-desktop h1 {
     font-size: 40px; }
   .more-info-desktop p {
@@ -8596,7 +8663,7 @@ p {
     font-size: 30px; } }
 @media (min-width: 2300px) and (min-height: 1300px) {
   .more-info-desktop .col-sm-6 {
-    min-height: 650px; }
+    min-height: 700px; }
   .more-info-desktop h1 {
     font-size: 60px; }
   .more-info-desktop p, .more-info-desktop .see-more-text {
@@ -8632,12 +8699,15 @@ p {
     color: #222e50; }
   .get-sponsored h1 {
     text-transform: uppercase;
-    font-size: 56px; }
+    font-size: 40px; }
   .get-sponsored p {
-    font-size: 30px;
+    font-size: 24px;
     width: 800px;
     margin-top: 60px;
     margin: 20px auto; }
+    .get-sponsored p .tm {
+      font-size: 14px;
+      vertical-align: text-top; }
   .get-sponsored .button-container {
     margin-top: 60px; }
   .get-sponsored .underline {
@@ -8649,34 +8719,33 @@ p {
 
 @media (min-width: 1500px) and (min-height: 900px) {
   .get-sponsored h1 {
-    font-size: 66px; }
+    font-size: 56px; }
   .get-sponsored p {
-    font-size: 40px;
+    font-size: 30px;
     width: 1300px; } }
 @media (max-width: 1035px) {
   .get-sponsored p {
     width: 600px;
-    font-size: 30px; } }
+    font-size: 22px; } }
 @media (max-width: 710px) {
   .get-sponsored h1 {
-    font-size: 40px; }
+    font-size: 35px; }
   .get-sponsored p {
     width: 500px;
-    font-size: 27px; } }
+    font-size: 20px; } }
 @media (max-width: 530px) {
   .get-sponsored h1 {
-    font-size: 40px; }
+    font-size: 30px; }
   .get-sponsored p {
-    width: auto;
-    font-size: 24px; } }
+    width: auto; } }
 @media (max-width: 450px) {
   .get-sponsored .underline {
     width: 200px; }
   .get-sponsored h1 {
-    font-size: 40px; }
+    font-size: 30px; }
   .get-sponsored p {
     width: auto;
-    font-size: 20px; } }
+    font-size: 18px; } }
 @media (max-width: 400px) {
   .get-sponsored .button-container {
     margin-top: 20px; }
@@ -8694,9 +8763,9 @@ p {
   .experts h1, .experts p {
     color: #fff; }
   .experts h1 {
-    font-size: 56px; }
+    font-size: 40px; }
   .experts p {
-    font-size: 30px; }
+    font-size: 24px; }
   .experts .caption {
     color: #ffd249;
     font-size: 16px; }
@@ -8707,24 +8776,29 @@ p {
 
 @media (min-width: 1500px) and (min-height: 900px) {
   .experts h1 {
-    font-size: 66px; }
+    font-size: 56px; }
   .experts p {
-    font-size: 40px; } }
-@media (max-width: 450px) {
+    font-size: 30px; } }
+@media (max-width: 530px) {
   .experts h1 {
-    font-size: 45px; } }
+    font-size: 35px; }
+  .experts p {
+    font-size: 18px; } }
 .three-steps {
   padding: 40px 0 60px 0; }
   .three-steps h1 {
     color: #222e50;
     padding: 20px;
-    font-size: 56px; }
+    font-size: 40px; }
+    .three-steps h1 .tm {
+      font-size: 22px;
+      vertical-align: text-top; }
   .three-steps h2, .three-steps p {
     color: #222e50; }
   .three-steps .step {
     margin-top: 40px; }
   .three-steps p {
-    font-size: 20px;
+    font-size: 18px;
     width: 90%;
     display: block;
     margin: 0 auto; }
@@ -8744,15 +8818,22 @@ p {
 
 @media (min-width: 1500px) and (min-height: 900px) {
   .three-steps p {
-    font-size: 30px; } }
+    font-size: 28px; } }
 @media (min-width: 2500px) and (min-height: 1100px) {
   .three-steps h2 {
-    font-size: 50px; }
+    font-size: 45px; }
   .three-steps p {
-    font-size: 40px; } }
+    font-size: 32px; } }
+@media (max-width: 1035px) {
+  .three-steps h1 {
+    font-size: 35px; }
+  .three-steps p {
+    font-size: 16px; } }
 @media (max-width: 450px) {
   .three-steps h1 {
-    font-size: 40px; } }
+    font-size: 30px; }
+  .three-steps p {
+    font-size: 16px; } }
 @media (max-width: 412px) {
   .three-steps .button {
     font-size: 15px; } }
@@ -8763,5 +8844,12 @@ p {
     margin-top: 160px;
     margin-bottom: 15px;
     color: #fff; }
+    .footer h2 .tm {
+      font-size: 14px;
+      vertical-align: text-top; }
+
+.container .less .more-button, .container .less .less-button, .container .more .more-button, .container .more .less-button {
+  font-size: 20px;
+  margin-top: 20px; }
 
 /*# sourceMappingURL=app.css.map */

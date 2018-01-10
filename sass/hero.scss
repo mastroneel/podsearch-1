@@ -32,7 +32,7 @@
     // margin-top: 20vh;
     // padding: 40px;
     height: 80vh;
-    padding: 20px;
+    padding: 0 20px;
     width: 100%;
     background:
         -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
@@ -46,18 +46,23 @@
     }
     h1 {
       // text-transform: uppercase;
-      font-size: 40px;
+      font-size: 36px;
       span {
         font-family: 'ptserif', serif;
         font-size: 11px;
         display: block;
       }
+      .tm {
+        font-size: 20px;
+        margin-top: -45px;
+        margin-left: 220px;
+      }
     }
     .large {
-      font-size: 50px;
+      font-size: 46px;
     }
     p {
-      font-size: 20px;
+      font-size: 18px;
     }
   }
   .hero-1 {
@@ -83,7 +88,7 @@
   }
   .hero-4 {
     background-image: url("../img/hero-4.jpg");
-    background-position: right;
+    background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -95,6 +100,27 @@
       margin-top: 10px;
       margin-bottom: 20px;
     }
+  }
+  .carousel-indicators {
+    li {
+      width: 15px;
+      height: 15px;
+      margin: 5px;
+    }
+  }
+  i {
+    color: $white;
+    font-size: 36px;
+    display: block;
+    margin: 20px auto 0 auto;
+    text-decoration: none;
+    &:hover {
+      color: $yellow;
+      text-decoration: none;
+    }
+  }
+  a, a:hover, a:visited {
+    text-decoration: none;
   }
   // h1, p {
   //   width: 500px;
@@ -127,12 +153,17 @@
     .text-container {
       h1 {
         font-size: 30px;
+        .tm {
+          font-size: 16px;
+          margin-top: -40px;
+          margin-left: 190px;
+        }
       }
       .large {
         font-size: 40px;
       }
       .button {
-        font-size: 18px;
+        font-size: 16px;
       }
     }
   }
@@ -143,6 +174,11 @@
     .text-container {
       h1 {
         font-size: 25px;
+        .tm {
+          font-size: 16px;
+          margin-top: -40px;
+          margin-left: 170px;
+        }
       }
       .large {
         font-size: 35px;
@@ -161,7 +197,7 @@
     }
     .text-container {
       min-width: 360px;
-      margin-top: 20px;
+      // margin-top: 20px;
     }
   }
 }
@@ -174,6 +210,11 @@
         font-size: 55px;
         span {
           font-size: 22px;
+        }
+        .tm {
+          font-size: 20px;
+          margin-top: -65px;
+          margin-left: 290px;
         }
       }
       .large {
@@ -195,6 +236,11 @@
         span {
           font-size: 28px;
         }
+        .tm {
+          font-size: 25px;
+          margin-top: -75px;
+          margin-left: 340px;
+        }
       }
       .large {
         font-size: 75px;
@@ -215,6 +261,11 @@
         span {
           font-size: 33px;
         }
+        .tm {
+          font-size: 30px;
+          margin-top: -95px;
+          margin-left: 400px;
+        }
       }
       .large {
         font-size: 90px;
@@ -231,7 +282,7 @@
   .hero {
     .text-container {
       height: 50vh;
-      margin-top: 20vh;
+      // margin-top: 20vh;
     }
   }
 }
@@ -240,7 +291,7 @@
   .hero {
     .text-container {
       height: 35vh;
-      margin-top: 20vh;
+      // margin-top: 20vh;
     }
   }
 }

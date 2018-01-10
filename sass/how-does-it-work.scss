@@ -5,8 +5,12 @@
   text-align: center;
   h1 {
     color: $blue;
-    font-size: 66px;
+    font-size: 50px;
     margin-top: 20vh;
+    .tm {
+      font-size: 22px;
+      vertical-align: text-top;
+    }
   }
   .underline {
     height: 0;
@@ -30,7 +34,7 @@
   p {
     font-style: italic;
     color: $blue;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 10px;
   }
 }
@@ -44,7 +48,7 @@
       margin-top: 15vh;
     }
     p {
-      font-size: 35px;
+      font-size: 30px;
     }
   }
 }
@@ -52,10 +56,10 @@
 @media (min-width: 1800px) and (min-height: 1100px) {
   .how-does-it-work {
     h2 {
-      font-size: 80px;
+      font-size: 70px;
     }
     p {
-      font-size: 36px;
+      font-size: 30px;
     }
   }
 }
@@ -71,7 +75,10 @@
 @media (max-width: 450px) {
   .how-does-it-work {
     h1 {
-      font-size: 45px;
+      font-size: 30px;
+    }
+    p {
+      font-size: 18px;
     }
     .underline {
       width: 200px;

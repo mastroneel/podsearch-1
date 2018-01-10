@@ -3,7 +3,7 @@
 .more-info-desktop, .more-info-mobile {
   .col-xs-12, .col-sm-6 {
     min-height: 450px;
-    padding-top: 60px;
+    padding-top: 75px;
   }
   .button-container {
     min-height: 0;
@@ -38,10 +38,10 @@
     color: $blue;
   }
   h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
   p, .see-more-text {
-    font-size: 25px;
+    font-size: 22px;
     width: 90%;
     display: block;
     margin: 0 auto;
@@ -91,6 +91,9 @@
 // Media queries
 @media (min-width: 1500px) and (min-height: 900px) {
   .more-info-desktop {
+    .col-sm-6 {
+      min-height: 550px;
+    }
     h1 {
       font-size: 40px;
     }
@@ -114,7 +117,7 @@
 @media (min-width: 2300px) and (min-height: 1300px){
   .more-info-desktop {
     .col-sm-6 {
-      min-height: 650px;
+      min-height: 700px;
     }
     h1 {
       font-size: 60px;
