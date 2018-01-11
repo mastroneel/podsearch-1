@@ -8513,6 +8513,8 @@ p {
     .unique .more-button, .unique .less-button {
       font-size: 20px;
       margin-top: 20px; }
+    .unique .less {
+      height: 50px; }
     .unique .more {
       height: 160px; }
     .unique .underline {
